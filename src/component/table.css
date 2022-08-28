@@ -28,7 +28,6 @@ td {
 
 .container {
     position: 'relative';
-    z-index: 99;
     color: 'white' !important;
     width: '100%';
 }
