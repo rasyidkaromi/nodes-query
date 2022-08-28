@@ -29,6 +29,9 @@ Use the following queries for examples
 - select * from customers where customerID = BERGS
 - select * from orders where customerID = BERGS
 - select * from category
+- select * from products
+- select * from orders
+- select * from customers
 - select * from products where quantityPerUnit = 48 - 6 oz jars
 - select * from products where productID = 4
 - select * from category where categoryID = 4
