@@ -19,7 +19,9 @@ https://boisterous-clafoutis-d8e0fc.netlify.app/
 ```
 
 ```
-This is a development of queries defined with texarea inputs and UI nodes that can make it easier for users to get to a particular database, and some use default tables in your data records. 
+This is a development of queries defined with texarea inputs and UI nodes 
+that can make it easier for users to get to a particular database, 
+and some use default tables in your data records. 
 ```
 
 ```
@@ -33,7 +35,8 @@ Use the following queries for examples
 ```
 
 ```
-Here using some dependencies like react-bootstrap react-table bootstrap and flume which are deployed locally for specific development needs.
+Here using some dependencies like react-bootstrap react-table bootstrap 
+and flume which are deployed locally for specific development needs.
 ```
 
 
