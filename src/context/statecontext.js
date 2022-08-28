@@ -116,11 +116,11 @@ const StateProvider = ({ children }) => {
         buttonStatus: false
     })
     const [saveQuery4, setSaveQuery4] = useState({
-        query: 'select * from product where quantityPerUnit = 48 - 6 oz jars',
+        query: 'select * from products where quantityPerUnit = 48 - 6 oz jars',
         buttonStatus: false
     })
     const [saveQuery5, setSaveQuery5] = useState({
-        query: 'select * from product where productID = 4',
+        query: 'select * from products where productID = 4',
         buttonStatus: false
     })
     const [saveQuery6, setSaveQuery6] = useState({
@@ -303,7 +303,7 @@ const StateProvider = ({ children }) => {
                 case 'category':
                     genTableDatawithconditions(categories, query.field, query.data, query.filter)
                     break;
-                case 'product':
+                case 'products':
                     genTableDatawithconditions(products, query.field, query.data, query.filter)
                     break;
                 case 'customers':
