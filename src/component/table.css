@@ -1,0 +1,34 @@
+table {
+    border-spacing: 1;
+    border: .5px solid white;
+    width: inherit;
+    /* width: -webkit-fill-available; */
+}
+
+tr {
+    border: .5px solid white;
+
+}
+
+th {
+    border: .5px solid white;
+    font-size: 13px;
+    padding: 4px;
+    font-weight: bold;
+}
+
+td {
+    margin: 0;
+    font-size: 10px;
+    padding: 0.5rem;
+    border-bottom: .5px solid white;
+    border-right: .5px solid white;
+    color: wheat;
+}
+
+.container {
+    position: 'relative';
+    z-index: 99;
+    color: 'white' !important;
+    width: '100%';
+}
